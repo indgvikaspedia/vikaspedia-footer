@@ -21,9 +21,10 @@
     width: 125px;
     height: 91px;
     background: url(https://static.vikaspedia.in/media/react/images/sprite08.png) 662px -2998px;
-    margin-top: -16px;
-    margin-left: -100px;
+    margin-top: -15px;
+    margin-left: -120px;
     position: absolute;
+    left: 0;
   }
   
   .digitalLogo {
@@ -438,6 +439,12 @@
     }
     .digitalLogo {
       margin-left: 6px;
+    }
+  }
+
+  @media (max-width: 732px) { 
+    .satya, .cdacLogo {
+      margin: auto;
     }
   }
   /* ---------Responsive functionality for mobile---------- */

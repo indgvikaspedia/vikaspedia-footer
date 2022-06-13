@@ -299,10 +299,10 @@ const Footer = props => {
           <div className="about">
             <Container className="aboutContainer">
               <Row>
-                <Col md={2} sm={2}>
+                <Col xs={{span: 6, order: 2}} lg={{span: 2, order: 1}} md={{span: 2, order: 1}} sm={{span: 2, order: 1}} xl={{span: 2, order: 1}}>
                   <div className="satya" />
                 </Col>
-                <Col md={8} sm={8}>
+                <Col lg={{span: 8, order: 2}} md={{span: 8, order: 2}} sm={{span: 8, order: 2}} xl={{span: 8, order: 2}}>
                   <div className="aboutContent">
                     <Nav className="about-linksalign">
                       {/* <ul>
@@ -437,7 +437,7 @@ const Footer = props => {
                     </Nav>
                   </div>
                 </Col>
-                <Col md={2} sm={2}>
+                <Col md={2} sm={2} xs={{span: 6, order: 3 }}>
                   <div className="cdacLogo" />
                 </Col>
               </Row>
