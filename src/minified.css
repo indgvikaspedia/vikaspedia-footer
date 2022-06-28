@@ -1721,6 +1721,18 @@
     .table-responsive-md > .table-bordered {
       border: 0;
     }
+    .list-group {
+    width: 100%;
+    justify-content: center;
+    flex-direction: row !important;
+}
+.history{padding: 12px !important;}
+  }
+  @media (max-width: 821.98px) {
+
+    .LM-margin ul{
+      width: 100%;
+    }
   }
   @media (max-width: 991.98px) {
     .table-responsive-lg {
@@ -12797,13 +12809,10 @@
   }
   
   .logo {
-    width: 125px;
+    width: 100px;
     height: 91px;
-    background: url(https://static.vikaspedia.in/media/react/images/sprite08.png) 662px -2998px;
-    margin-top: -15px;
-    margin-left: -120px;
-    position: absolute;
-    left: 0;
+    background: url(https://static.vikaspedia.in/media/react/images/sprite08.png) 642px -2998px;
+    
   }
   
   .digitalLogo {
@@ -13185,10 +13194,6 @@
       place-content: flex-start;
     }
   
-    .logo {
-      margin-top: 71px;
-      margin-left: -126px;
-    }
     .aboutContent {
       margin-top: 0px;
       font-size: 5pt;

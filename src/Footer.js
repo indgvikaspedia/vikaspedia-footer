@@ -257,14 +257,14 @@ const Footer = props => {
               {/* <Row className="historyRow">
                   <Col md="1"> */}
               <Form>
-                <Form.Row style={{ marginLeft: '63px' }}>
-                  <Col md="1">
+                <Form.Row >
+                  <Col md="2" xs="4" class className="d-flex align-items-center">
                     <div className="logo"></div>
                   </Col>
 
                   {/* </Col> */}
                   {/* <Col md="10" className="historyAlign"> */}
-                  <Col>
+                  <Col md="10" xs="8">
                     <p className="historyContent">
                       {_lgn.portal_about_1}{' '}
                       <a
